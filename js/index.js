@@ -94,8 +94,6 @@ const mediaQueryList = [
   window.matchMedia("(max-width: 991px)"),
 ];
 
-console.log(totalSlides);
-
 loadIndicators();
 
 // document.getElementById('slider-arrow-next').addEventListener('click', function () {
@@ -171,7 +169,6 @@ const HandleScreen = () => {
 };
 
 HandleScreen();
-console.log(HandleScreen);
 // Add listener to media query list items
 for (let i = 0; i < mediaQueryList.length; i++) {
   mediaQueryList[i].addListener(HandleScreen);

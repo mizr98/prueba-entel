@@ -829,6 +829,8 @@ body {
 
 .section-5 .docs .slider-container .slider-list .slider-item-visible {
   display: block;
+  -webkit-animation: fadeIn 0.7s;
+          animation: fadeIn 0.7s;
 }
 
 .section-5 .docs .slider-container .slider-indicators {
