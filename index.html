@@ -191,44 +191,48 @@
         </div>
 
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <a class="mini-card">
-              <div class="mini-card-icon">
-                <img src="./assets/Datos.svg" alt="" class="icon">
+          <div class="slider-container mb-2">
+            <div class="slider-list">
+              <div class="slider-item slider-item-visible col-12 col-md-12 col-lg-4 mb-3">
+                <a class="mini-card">
+                  <div class="mini-card-icon">
+                    <img src="./assets/Datos.svg" alt="" class="icon" />
+                  </div>
+                  <div class="mini-card-content">
+                    <h3 class="titulo">Prevención de riesgos</h3>
+                    <img src="./assets/rigth-arrow.svg" alt="" />
+                  </div>
+                </a>
               </div>
-              <div class="mini-card-content">
-                <h3 class="titulo">
-                  Prevención de riesgos
-                </h3>
-                <img src="./assets/rigth-arrow.svg" alt="">
+              <div class="slider-item col-12 col-md-12 col-lg-4 mb-3">
+                <a class="mini-card">
+                  <div class="mini-card-icon">
+                    <img src="./assets/Datos.svg" alt="" class="icon" />
+                  </div>
+                  <div class="mini-card-content">
+                    <h3 class="titulo">Plan #EntelSeguro</h3>
+                    <img src="./assets/rigth-arrow.svg" alt="" />
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <a class="mini-card">
-              <div class="mini-card-icon">
-                <img src="./assets/Datos.svg" alt="" class="icon">
+              <div class="slider-item col-12 col-md-12 col-lg-4 mb-3">
+                <a class="mini-card">
+                  <div class="mini-card-icon">
+                    <img src="./assets/Datos.svg" alt="" class="icon" />
+                  </div>
+                  <div class="mini-card-content">
+                    <h3 class="titulo">
+                      Reposición Elementos de Protección Personal (EPP)
+                    </h3>
+                    <img src="./assets/rigth-arrow.svg" alt="" />
+                  </div>
+                </a>
               </div>
-              <div class="mini-card-content">
-                <h3 class="titulo">
-                  Plan #EntelSeguro
-                </h3>
-                <img src="./assets/rigth-arrow.svg" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <a class="mini-card">
-              <div class="mini-card-icon">
-                <img src="./assets/Datos.svg" alt="" class="icon">
-              </div>
-              <div class="mini-card-content">
-                <h3 class="titulo">
-                  Reposición Elementos de Protección Personal (EPP)
-                </h3>
-                <img src="./assets/rigth-arrow.svg" alt="">
-              </div>
-            </a>
+
+
+            </div>
+            <div class="slider-indicators"></div>
+
           </div>
         </div>
 
@@ -238,70 +242,77 @@
 
   </section>
 
-  <section class="section-6">
+  <section class="section-6" id="lista-preguntas">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-10 col-sm-12">
-          <h1>Preguntas Frecuentes</h1>
-          <p>Aliquip duis velit commodo dolore anim amet reprehenderit Lorem occaecat eiusmod do ullamco irure. Sint
+          <h1 class="titulo">Preguntas Frecuentes</h1>
+          <p class="parrafo">Aliquip duis velit commodo dolore anim amet reprehenderit Lorem occaecat eiusmod do ullamco irure. Sint
             Lorem est qui culpa exercitation velit cupidatat velit exercitation officia nisi.</p>
         </div>
       </div>
-
       <div class="row">
         <div class="col-12 mb-1">
-          <a href="" class="card-link">
-            <p class="nombre">¿Ejemplo de pregunta? N°1</p>
-            <img src="//theme.zdassets.com/theme_assets/10682496/dede3670c451a6bdfe9416ded698b4416553bb9c.png"
-              class="icono">
-          </a>
-          <div class="algo">
-            <h4> Consideraciones</h4>
-            <ul>
-              <li>Realizado el requerimiento, dentro de las siguientes 72 horas hábiles recibirás el mail de
-                notificación de cambio del plan en tu nuevo número.</li>
-              <li>
-                El plan es personal e intransferible.
-              </li>
-              <li>
-                El número con Asignación interna será publicado internamente para que te contacten tus compañeros y el
-                resto de la compañía. Es público.
-              </li>
+          <button class="card-link nombre" id="1" name="button" style="width: 100%; cursor: pointer; margin: auto;">
+            ¿Ejemplo de pregunta? N°1
+          </button>
+          <div class="box hidden" id="ejemplo-1">
+            <h1 class="titulo">Consideraciones 1</h1>
+            <ul class="listado">
+                <li>Realizado el requerimiento, dentro de las siguientes 72 horas hábiles recibirás el mail de notificación de cambio del plan en tu nuevo número.</li>
+                <li>El plan es personal e intransferible.</li>
+                <li>El número con Asignación interna será publicado internamente para que te contacten tus compañeros y el resto de la compañía. Es público.</li>
             </ul>
+
           </div>
         </div>
         <div class="col-12 mb-1">
-          <a href="" class="card-link">
-            <p class="nombre">¿Ejemplo de pregunta? N°1</p>
-            <img src="//theme.zdassets.com/theme_assets/10682496/dede3670c451a6bdfe9416ded698b4416553bb9c.png"
-              class="icono">
-          </a>
+          <button class="card-link nombre" id="2" name="button" style="width: 100%; cursor: pointer; margin: auto;">
+            ¿Ejemplo de pregunta? N°2
+          </button>
+          <div class="box hidden" id="ejemplo-2">
+            <h1 class="titulo">Consideraciones 2</h1>
+            <ul class="listado">
+                <li>Realizado el requerimiento, dentro de las siguientes 72 horas hábiles recibirás el mail de notificación de cambio del plan en tu nuevo número.</li>
+                <li>El plan es personal e intransferible.</li>
+                <li>El número con Asignación interna será publicado internamente para que te contacten tus compañeros y el resto de la compañía. Es público.</li>
+            </ul>
+
+          </div>
         </div>
-        <div class="col-12 mb-1">
-          <a href="" class="card-link">
-            <p class="nombre">¿Ejemplo de pregunta? N°1</p>
-            <img src="//theme.zdassets.com/theme_assets/10682496/dede3670c451a6bdfe9416ded698b4416553bb9c.png"
-              class="icono">
-          </a>
+        <div class="col-12 mb-2">
+          <button class="card-link nombre" id="3" name="button" style="width: 100%; cursor: pointer; margin: auto;">
+            ¿Ejemplo de pregunta? N°3
+          </button>
+          <div class="box hidden" id="ejemplo-3">
+            <h1 class="titulo">Consideraciones 3</h1>
+            <ul class="listado">
+                <li>Realizado el requerimiento, dentro de las siguientes 72 horas hábiles recibirás el mail de notificación de cambio del plan en tu nuevo número.</li>
+                <li>El plan es personal e intransferible.</li>
+                <li>El número con Asignación interna será publicado internamente para que te contacten tus compañeros y el resto de la compañía. Es público.</li>
+            </ul>
+
+          </div>
         </div>
       </div>
-
     </div>
+
   </section>
 
   <section class="section-modal">
+
     <div id="miModal" class="modal">
 
       <!-- Modal content -->
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Corporativo</h4>
+        <span class="close"> <img src="./assets/ico_cerrar.svg" alt=""></span>
+        <h4 class="titulo">Corporativo</h4>
         <p>Revisa los siguientes documentos y recomendaciones para el retorno al Edificio Corporativo</p>
-        <div class="row">
+        <div class="row desktop">
           <div class="col-lg-4 col-md-12 mb-1">
             <div class="mini-box">
               <img src="./assets/ico_ingreso.svg" alt="">
-              <p>Experiencia de
+              <p class="texto">Experiencia de
                 ingreso</p>
             </div>
 
@@ -309,14 +320,30 @@
           <div class="col-lg-4 col-md-12 mb-1">
             <div class="mini-box">
               <img src="./assets/ico_salas.svg" alt="">
-              <p>Sala de reuniones</p>
+              <p class="texto">Sala de reuniones</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-12 mb-1">
             <div class="mini-box">
               <img src="./assets/ico_estacionamiento.svg" alt="">
-              <p>Sistema de estacionamiento
+              <p class="texto">Sistema de estacionamiento
                 Próximamente</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mobile">
+          <div class="col-lg-4 col-md-12 mb-1">
+            <div class="mini-box">
+              <img src="./assets/datos.svg" alt="">
+              <p class="texto">Experiencia de
+                ingreso</p>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-12 mb-1">
+            <div class="mini-box">
+              <img src="./assets/Datos.svg" alt="">
+              <p class="texto">Nuevos espacios y tecnología</p>
             </div>
           </div>
         </div>
@@ -338,6 +365,7 @@
       </div>
     </div>
   </footer>
+  
   <script src="./js/index.js"></script>
 </body>
 
